@@ -1,0 +1,133 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body{
+  background-color: rgb(21, 59, 21);
+  z-index: -1;
+}
+.App{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+}
+.c-player{
+  display: block;
+  background-color: rgb(54, 54, 54);
+  padding: 50px;
+  border-radius: 10px;
+  
+}
+.c-player > h4{
+  font-size: 15px;
+  color: white;
+  text-align: center;
+}
+.c-player > p{
+  color: rgb(197, 197, 197);
+  font-size: 15px;
+  text-align: center;
+  font-weight: 600;
+
+}
+.c-player .details-img{
+  position: relative;
+  width:fit-content;
+  margin: 0 auto;
+}
+
+.c-player-details .details-img {
+  display: block;
+  margin: 0px auto;
+  width: 100%;
+  max-width: 250px;
+  border-radius: 50%;
+
+
+}
+.c-player-details .details-title{
+  color: #EEE;
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.c-player-details .details-artist{
+  color: #AAA;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+
+}
+.c-player-controle{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.c-player-controle .play{
+  display: flex;
+  margin:0px 30px;
+  font-size: 24px;
+  border: none;
+  outline: none;
+  border-radius: 50%;
+  padding: 20px;
+  cursor: pointer;
+  
+}
+.c-player-controle .skip{
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+form{
+  width: 390px;
+  height: 400px;
+  border: #AAA;
+  background-color: #AAA;
+  align-items: center;
+  text-align: center;
+  font-size: 33px;
+}
+input{
+  border-radius: 10%;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 10px;
+  font-size: 30px;
+
+}
+.footer{
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  margin-right: 20%;
+  margin-bottom: 22px;
+}
+.Header{
+  position: fixed;
+  top: 0;
+  text-align: center;
+  margin-top: 10px;
+  font-family: sans-serif;
+}
+.forma{
+  text-align: center;
+  margin-top: 10px;
+  font-size: 19px;
+}
+img{
+  height: 220px;
+  width: 265px;
+}
+button{
+  
+}
